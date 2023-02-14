@@ -75,6 +75,20 @@ public class  HomeWork3 {
             }
         }
     }
+    
+/*
+
+Здравствуйте, моя среда разработки предложила исправить ваш код для проверки второго задания ради работоспособности кода, это я неправильно выполнил задание, или какие-то проблемы с кодом проверки?
+
+
+
+    public static void testSecondTask() {
+        System.out.println("\nTests for catchException"); AntiCheat.run();
+        Function<String, String> f = str -> {List<String> r = Arrays.stream(str.split("\\.")).toList();return r.get(r.size() - 1);};
+        for (Integer exceptionId : classesCorrelation.keySet().stream().sorted().toList()) printTestCase(exceptionId, f.apply(classesCorrelation.get(exceptionId).toString()), catchException(exceptionId), 30);
+    }
+
+*/
 
     public static void testSecondTask() {
         System.out.println("\nTests for catchException"); AntiCheat.run();
